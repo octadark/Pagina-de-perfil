@@ -1,0 +1,328 @@
+/* ENCABEZADO DE PERFIL*/
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.nav{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(56, 53, 53);
+    color: white;
+    padding: 10px;
+}
+
+.nav-title, .nav-links{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+a{
+    color: rgb(204, 202, 202);
+    text-decoration: none;
+}
+.active{
+    color: white;
+}
+.nav-links{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    align-items: center;
+}
+.btn{
+    background-color: rgb(11, 155, 160);
+    color: white;
+    box-shadow: 5px 5px black;
+    border:none;
+}
+
+/* TARJETA DE PERFIL */
+.tarjetadeusuario{
+    border: 2px solid rgb(10, 3, 3);
+    width: 500px;
+    left: 30px;
+    top: 10px;
+    padding-bottom: 50px;
+    position: relative;
+    display: inline-block
+    
+}
+.encabezado{
+    background-color: rgb(16, 174, 185);
+    height: 100px;
+    position: relative;
+
+}
+.perfil{
+    width: 90px;
+    position:absolute;
+    top: 45px;
+    left: 20px;
+    border-radius: 50%;
+    color: white;
+}
+h1{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+
+.ubicacion{
+    width: 20px;
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}
+
+h2{
+    margin-top: 5px;
+    margin-left: 50px;
+}
+p{
+    margin-left: 25px;
+    margin-top:20px;
+}
+
+.tornillo{
+    position: relative;
+    width: 25px;
+    top: 30px;
+    left: 20px
+}
+
+h4{
+    margin-left: 55px;
+    margin-top: 10px;
+    color:aqua
+}
+
+/* Educación*/
+.tarjetadeusuario2{
+    border: 2px solid rgb(10, 3, 3);
+    width: 500px;
+    right: 480px;
+    padding-bottom: 50px;
+    position: relative;
+    top: 230px;
+    display: inline-block;
+
+}
+.encabezado2{
+    background-color: rgb(11, 11, 88);
+    height: 60px;
+    color: white;
+    font-size: 30px;
+    
+    
+}
+h7{
+    margin: 10px;
+}
+h8{
+    font-size: 30px;
+    margin-left: 20px;
+}
+h3{
+    margin-left: 20px;
+}
+.edinfo{
+    text-align: start;
+}
+
+/* Solicitudes*/
+.tarjetadesolicitudes {
+    display: inline-block;
+    text-align: end;
+    padding-bottom: 200px;
+    height: 40px;
+    width: 350px;
+    position:absolute;
+    bottom: 300px;
+    border: 2px solid rgb(10, 3, 3);
+    left: 600px;
+}
+.encabezado3{
+    background-color: gold;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    position: relative;
+}
+
+.varcount{
+    position: absolute;
+    left: 4px;
+    top: 6px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+}
+.count{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}   
+.todd{
+    position: relative;
+    border-radius: 50%;
+    width: 60px;
+    right: 280px;
+    top: 10px;
+}
+h11{
+    position: absolute;
+    right: 200px;
+    top: 80px;
+}
+.accept{
+    border-radius: 50%;
+    width: 35px;
+    position: relative;
+    right: 100px;
+    bottom: 40px;
+}
+.close{
+    border-radius: 50%;
+    width: 35px;
+    position: relative;
+    right: 50px;
+    bottom: 78px;
+}
+.phil{
+    position: absolute;
+    border-radius: 50%;
+    width: 60px;
+    right: 280px;
+    top: 130px
+}
+h12{
+    position: absolute;
+    right: 200px;
+    top: 155px;
+}
+.accept2{
+    border-radius: 50%;
+    width: 35px;
+    position: relative;
+    right: 100px;
+    bottom: 45px;
+}
+.close2{
+    border-radius: 50%;
+    width: 35px;
+    position: relative;
+    right: 50px;
+    bottom: 80px;
+}
+
+/*Lista de amigos*/
+.friendlist{
+display: inline-block;
+border: 2px solid rgb(10, 3, 3);
+width: 350px;
+margin-right: 100px;
+padding-bottom: 370px;
+}
+.encabezado4{
+    background-color: greenyellow;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    position: relative;
+}
+.varcount2{
+    position: absolute;
+    left: 4px;
+    top: 6px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+}
+.count2{
+    position: absolute;
+    left: 5px;
+    top: 15px;
+    color: black;
+    font-size: 20px;
+}
+.adrien{
+    position: relative;
+    border-radius: 50%;
+    width: 60px;
+    right: 280px;
+    top: 20px;
+}
+h15{
+    position: relative;
+    color: black;
+    right: 150px;
+    bottom: 30px;
+    font-size: 20px;
+}
+.anne{
+    position: relative;
+    border-radius: 50%;
+    width: 60px;
+    right: 280px;
+}
+h16{
+    position: absolute;
+    color: black;
+    left: 123px;
+    top: 155px;
+    font-size: 20px;
+}
+.alayne{
+    position: relative;
+    border-radius: 50%;
+    width: 60px;
+    right: 280px;
+    top: 5px;
+}
+h17{
+    position: absolute;
+    color: black;
+    left: 123px;
+    top: 225px;
+    font-size: 20px;
+}
+.arry{
+    position: relative;
+    border-radius: 50%;
+    width: 60px;
+    right: 280px;
+    top: 10px;
+}
+h18{
+    position: absolute;
+    color: black;
+    left: 123px;
+    top: 300px;
+    font-size: 20px;
+}
+/*Viewmore*/
+
+.viewmoreinfo{
+    padding-left: 20px;
+    border: 2px solid black;
+    color: black;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+    border-bottom: none;
+    text-align: start;
+}
